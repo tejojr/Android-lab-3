@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView 
+        android:text="SMKN1 PBG"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/ic_launcher"/>
+    <TextView 
+        android:text="Masukkan Nama"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        
+    </TextView>
+    <EditText 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/t_nama"/>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <Button 
+            android:text="Hapus"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/b_hapus"/>
+        <Button 
+            android:text="Salam"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/b_salam"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
